@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E852D6A9E6A73E7855A25C9 /* Pods_AlomofireSwifyJsonUsage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E8CC61957DC81D42265775 /* Pods_AlomofireSwifyJsonUsage.framework */; };
 		E95187AA224F69FC002C584C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95187A9224F69FC002C584C /* AppDelegate.swift */; };
 		E95187AC224F69FC002C584C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95187AB224F69FC002C584C /* ViewController.swift */; };
-		E95187AF224F69FC002C584C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95187AD224F69FC002C584C /* Main.storyboard */; };
 		E95187B1224F69FE002C584C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95187B0224F69FE002C584C /* Assets.xcassets */; };
 		E95187B4224F69FE002C584C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95187B2224F69FE002C584C /* LaunchScreen.storyboard */; };
+		E95187BC224F7AC9002C584C /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95187BB224F7AC9002C584C /* userModel.swift */; };
+		E95187BE224F8711002C584C /* userCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95187BD224F8711002C584C /* userCell.swift */; };
+		E95187C0224F8CEC002C584C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95187BF224F8CEC002C584C /* Main.storyboard */; };
+		E95187C222513111002C584C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95187C122513111002C584C /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03E8CC61957DC81D42265775 /* Pods_AlomofireSwifyJsonUsage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlomofireSwifyJsonUsage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F8756547D7679F075D8A19 /* Pods-AlomofireSwifyJsonUsage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlomofireSwifyJsonUsage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlomofireSwifyJsonUsage/Pods-AlomofireSwifyJsonUsage.debug.xcconfig"; sourceTree = "<group>"; };
+		AE41484FF17E2555D1596B89 /* Pods-AlomofireSwifyJsonUsage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlomofireSwifyJsonUsage.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlomofireSwifyJsonUsage/Pods-AlomofireSwifyJsonUsage.release.xcconfig"; sourceTree = "<group>"; };
 		E95187A6224F69FC002C584C /* AlomofireSwifyJsonUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlomofireSwifyJsonUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95187A9224F69FC002C584C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95187AB224F69FC002C584C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E95187AE224F69FC002C584C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E95187B0224F69FE002C584C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95187B3224F69FE002C584C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95187B5224F69FE002C584C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95187BB224F7AC9002C584C /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		E95187BD224F8711002C584C /* userCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userCell.swift; sourceTree = "<group>"; };
+		E95187BF224F8CEC002C584C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E95187C122513111002C584C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E852D6A9E6A73E7855A25C9 /* Pods_AlomofireSwifyJsonUsage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81FD4B15D89AE0DD2E838D8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81F8756547D7679F075D8A19 /* Pods-AlomofireSwifyJsonUsage.debug.xcconfig */,
+				AE41484FF17E2555D1596B89 /* Pods-AlomofireSwifyJsonUsage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98DF07E68843E002EE616665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E8CC61957DC81D42265775 /* Pods_AlomofireSwifyJsonUsage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E951879D224F69FC002C584C = {
 			isa = PBXGroup;
 			children = (
 				E95187A8224F69FC002C584C /* AlomofireSwifyJsonUsage */,
 				E95187A7224F69FC002C584C /* Products */,
+				81FD4B15D89AE0DD2E838D8E /* Pods */,
+				98DF07E68843E002EE616665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +86,13 @@
 			children = (
 				E95187A9224F69FC002C584C /* AppDelegate.swift */,
 				E95187AB224F69FC002C584C /* ViewController.swift */,
-				E95187AD224F69FC002C584C /* Main.storyboard */,
+				E95187BF224F8CEC002C584C /* Main.storyboard */,
 				E95187B0224F69FE002C584C /* Assets.xcassets */,
 				E95187B2224F69FE002C584C /* LaunchScreen.storyboard */,
 				E95187B5224F69FE002C584C /* Info.plist */,
+				E95187BB224F7AC9002C584C /* userModel.swift */,
+				E95187BD224F8711002C584C /* userCell.swift */,
+				E95187C122513111002C584C /* APIManager.swift */,
 			);
 			path = AlomofireSwifyJsonUsage;
 			sourceTree = "<group>";
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95187B8224F69FE002C584C /* Build configuration list for PBXNativeTarget "AlomofireSwifyJsonUsage" */;
 			buildPhases = (
+				692074F916A9E0E6BAE53C68 /* [CP] Check Pods Manifest.lock */,
 				E95187A2224F69FC002C584C /* Sources */,
 				E95187A3224F69FC002C584C /* Frameworks */,
 				E95187A4224F69FC002C584C /* Resources */,
+				FC28BB547B2C18237C2334E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +131,7 @@
 				TargetAttributes = {
 					E95187A5224F69FC002C584C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -122,35 +158,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95187C0224F8CEC002C584C /* Main.storyboard in Resources */,
 				E95187B4224F69FE002C584C /* LaunchScreen.storyboard in Resources */,
 				E95187B1224F69FE002C584C /* Assets.xcassets in Resources */,
-				E95187AF224F69FC002C584C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		692074F916A9E0E6BAE53C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlomofireSwifyJsonUsage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC28BB547B2C18237C2334E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlomofireSwifyJsonUsage/Pods-AlomofireSwifyJsonUsage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlomofireSwifyJsonUsage/Pods-AlomofireSwifyJsonUsage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E95187A2224F69FC002C584C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95187BE224F8711002C584C /* userCell.swift in Sources */,
 				E95187AC224F69FC002C584C /* ViewController.swift in Sources */,
+				E95187C222513111002C584C /* APIManager.swift in Sources */,
 				E95187AA224F69FC002C584C /* AppDelegate.swift in Sources */,
+				E95187BC224F7AC9002C584C /* userModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E95187AD224F69FC002C584C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E95187AE224F69FC002C584C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E95187B2224F69FE002C584C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +352,7 @@
 		};
 		E95187B9224F69FE002C584C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F8756547D7679F075D8A19 /* Pods-AlomofireSwifyJsonUsage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,13 +363,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Com.AlomofireSwifyJsonUsage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E95187BA224F69FE002C584C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE41484FF17E2555D1596B89 /* Pods-AlomofireSwifyJsonUsage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,7 +381,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Com.AlomofireSwifyJsonUsage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
